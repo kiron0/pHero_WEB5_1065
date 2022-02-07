@@ -1,0 +1,91 @@
+.header{
+    text-align: center;
+    font-weight: 600;
+}
+
+.first-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.bangladesh{
+    width: 50%;
+}
+
+
+.details-btn a{
+    text-decoration: none;
+    color: black;
+}
+
+.details-btn{
+    font-weight: 700;
+    padding: 15px 40px;
+    border: none;
+    background-image: linear-gradient(45deg, green, red, green);
+    border-radius: 5px;
+    cursor: pointer;
+    animation: 0.8s;
+}
+
+.details-btn:hover{
+    color: white;
+    background-image: linear-gradient(135deg, green, red, green);
+}
+
+
+.bd-flag img{
+    width: 400px;
+}
+
+.bd-division{
+    text-align: center;
+}
+
+.division{
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 12px gray;
+}
+
+.div-img img{
+    width: 100%;
+}
+
+.second-section{
+    display: flex;
+    justify-content: space-around;
+}
+
+.dhaka{
+    text-align: center;
+    padding: 10px;
+}
+
+.pabna{
+    text-align: center;
+    padding: 10px;
+}
+
+.khulna{
+    text-align: center;
+    padding: 10px;
+}
+
+.div-btn {
+    padding: 10px 30px;
+    border: none;
+    background-color: aqua;
+    border-radius: 5px;
+    font: 16px;
+  }
+
+.footer-content{
+    text-align: center;
+}
+
+hr{
+    margin-top: 50px;
+}

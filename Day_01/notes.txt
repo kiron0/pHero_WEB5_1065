@@ -1,0 +1,29 @@
+Day 01
+===========================================================
+Video 01:
+File extension must be .html
+How to create Google docs
+Video 02:
+HTML - Hypertext markup language
+Markup - In computer text processing, a markup language is metadata for annotating a document
+Video 03:
+P Tag - Paragraph Tag
+B Tag - Bold font style Tag
+I Tag - italic font style
+Video 04:
+Heading Tag - h1, h2, h3, h4, h5, h6
+Alternative of “b tag” is “<strong> </strong>
+Video 05:
+Anchor Tag - a href
+Video 06:
+Img Tag & alt
+Video 07:
+Order list ol
+Unordered list ul
+Video 08:
+Input types
+Div Tag - <div> </div>
+Small tag
+Br tag
+Video 09:
+Html Structure, Head, Body, Title, Link, Meta Tag

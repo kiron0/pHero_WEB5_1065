@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Album</title>
+    <style>
+        h1 {
+            text-align: center;
+        }
+
+        .photo-album {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .photo-frame {
+            width: 300px;
+            height: 200px;
+            border: 2px solid goldenrod;
+            border-radius: 10px;
+            position: relative;
+            margin: 15px;
+            overflow: hidden;
+        }
+
+        .photo img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .photo-detail {
+            display: none;
+            position: absolute;
+            width: 300px;
+            top: 0;
+        }
+
+        .photo-detail h3 {
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+
+        .photo-detail p {
+            color: white;
+        }
+
+        .photo-frame:hover .photo-detail {
+            display: block;
+            background-color: rgba(204, 176, 104, 0.493);
+            cursor: pointer;
+        }
+
+        .photo-frame:hover .photo {
+            transform: scale(1.9);
+            transition: transform 1s linear;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>My awesome photo album with Tiger mama</h1>
+    <div class="photo-album">
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/tiger.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>Tigar mama can did</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium laboriosam illum saepe tempora
+                    veritatis inventore minima magni ipsa ex sit dolore, atque architecto, libero labore natus nostrum
+                    odit perferendis expedita?</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/tiger.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>Tigar mama can did</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium laboriosam illum saepe tempora
+                    veritatis inventore minima magni ipsa ex sit dolore, atque architecto, libero labore natus nostrum
+                    odit perferendis expedita?</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/tiger.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>Tigar mama can did</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium laboriosam illum saepe tempora
+                    veritatis inventore minima magni ipsa ex sit dolore, atque architecto, libero labore natus nostrum
+                    odit perferendis expedita?</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/tiger.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>Tigar mama can did</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium laboriosam illum saepe tempora
+                    veritatis inventore minima magni ipsa ex sit dolore, atque architecto, libero labore natus nostrum
+                    odit perferendis expedita?</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/tiger.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>Tigar mama can did</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium laboriosam illum saepe tempora
+                    veritatis inventore minima magni ipsa ex sit dolore, atque architecto, libero labore natus nostrum
+                    odit perferendis expedita?</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/tiger.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>Tigar mama can did</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium laboriosam illum saepe tempora
+                    veritatis inventore minima magni ipsa ex sit dolore, atque architecto, libero labore natus nostrum
+                    odit perferendis expedita?</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/tiger.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>Tigar mama can did</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium laboriosam illum saepe tempora
+                    veritatis inventore minima magni ipsa ex sit dolore, atque architecto, libero labore natus nostrum
+                    odit perferendis expedita?</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/tiger.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>Tigar mama can did</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium laboriosam illum saepe tempora
+                    veritatis inventore minima magni ipsa ex sit dolore, atque architecto, libero labore natus nostrum
+                    odit perferendis expedita?</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/tiger.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>Tigar mama can did</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium laboriosam illum saepe tempora
+                    veritatis inventore minima magni ipsa ex sit dolore, atque architecto, libero labore natus nostrum
+                    odit perferendis expedita?</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/tiger.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>Tigar mama can did</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium laboriosam illum saepe tempora
+                    veritatis inventore minima magni ipsa ex sit dolore, atque architecto, libero labore natus nostrum
+                    odit perferendis expedita?</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/tiger.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>Tigar mama can did</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium laboriosam illum saepe tempora
+                    veritatis inventore minima magni ipsa ex sit dolore, atque architecto, libero labore natus nostrum
+                    odit perferendis expedita?</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/tiger.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>Tigar mama can did</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium laboriosam illum saepe tempora
+                    veritatis inventore minima magni ipsa ex sit dolore, atque architecto, libero labore natus nostrum
+                    odit perferendis expedita?</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/tiger.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>Tigar mama can did</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium laboriosam illum saepe tempora
+                    veritatis inventore minima magni ipsa ex sit dolore, atque architecto, libero labore natus nostrum
+                    odit perferendis expedita?</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/tiger.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>Tigar mama can did</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium laboriosam illum saepe tempora
+                    veritatis inventore minima magni ipsa ex sit dolore, atque architecto, libero labore natus nostrum
+                    odit perferendis expedita?</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/tiger.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>Tigar mama can did</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium laboriosam illum saepe tempora
+                    veritatis inventore minima magni ipsa ex sit dolore, atque architecto, libero labore natus nostrum
+                    odit perferendis expedita?</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
