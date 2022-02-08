@@ -1,0 +1,6 @@
+.content-box {
+  /* border: 1px solid gray; */
+  box-shadow: 4px 4px 8px lightgray;
+  border-radius: 5px;
+  font-size: 20px;
+}
