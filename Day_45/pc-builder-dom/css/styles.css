@@ -8,8 +8,12 @@ body {
 
 /* ---------------------Customization section -------------------------- */
 .margin-top{
-    margin-top: 40px;
+    margin-top: 30px;
 }
+.margin-top2{
+    margin-top: 33px;
+}
+
 .bold{
     font-weight: 700;
 }
@@ -24,11 +28,17 @@ body {
 }
 
 .button-style{
+    margin-right: 5px;
+    border: 1px solid cornflowerblue;
     border-radius: 6px;
     padding: 7px;
 }
 .button-style:hover{
     background-color: cornflowerblue;
     color: white;
+}
+
+.promo-total{
+    font-size: 2rem;
 }
 /* --------------------End---------------------- */
