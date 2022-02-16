@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leader Board</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/all.min.css">
 </head>
@@ -17,7 +17,7 @@
     </header>
     <main>
         <section>
-            <h1 class="section-title">Top Player</h1>
+            <h1 class="section-title" id="top-player">Top Player</h1>
             <div class="top-players">
                 <div class="player">
                     <img src="images/Ellipse.png" alt="">
@@ -46,7 +46,7 @@
             </div>
         </section>
         <section>
-            <h1 class="section-title">Top Blogs</h1>
+            <h1 class="section-title" id="top-blog">Top Blogs</h1>
             <div class="blogs">
                 <article class="blog">
                     <div class="thumbnail">
@@ -54,7 +54,7 @@
                     </div>
                     <div class="blog-info">
                         <h3>13 of My Favorite UI/UX Goodies</h3>
-                        <p>By <a href=""> Danny Sapio</a></p>
+                        <p>By <a href="">Danny Sapio</a></p>
                     </div>
                 </article>
                 <article class="blog">
@@ -151,7 +151,17 @@
                 </div>
             </div>
         </section>
+
+        <section class="input-section">
+            <div class="input-field">
+                <button id="minus-btn">-</button>
+                <input id="input-value" type="number" min="0" class="form-control text-center" value="0">
+                <button id="plus-btn">+</button>
+            </div>
+        </section>
     </main>
+
+    <script src="js/script.js"></script>
 </body>
 
 </html>

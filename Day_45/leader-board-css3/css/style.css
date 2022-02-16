@@ -17,6 +17,16 @@ section{
     margin: 1em;
     border-radius: 10px;
 }
+
+.input-section{
+    padding: 3rem;
+}
+
+a{
+    text-decoration: none;
+    color: lightblue;
+}
+
 .section-title{
     color: violet;
 }
@@ -58,6 +68,37 @@ section{
 .course-info{
     display: flex;
 }
+
+.input-field{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+button,
+input{
+    padding: 1rem 2rem ;
+    border-radius: 5px;
+}
+
+button{
+    font-size: 2rem;
+    cursor: pointer;
+    background-color: rgba(39, 93, 245, 0.8);
+    color: #fff;
+    border: none;
+}
+
+input{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    width: 4rem;
+    border: 1px solid rgba(39, 93, 245, 0.8);
+}
+
+
 @media (max-width:992px){
     .top-players, .courses{
         grid-template-columns: repeat(2, 1fr);
