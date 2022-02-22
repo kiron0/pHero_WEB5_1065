@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Kanye West</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+        * {
+            font-family: 'Montserrat', sans-serif;
+            text-align: center;
+        }
+
+        button {
+            border: none;
+            background-color: aqua;
+            padding: 20px;
+            color: black;
+            border-radius: 15px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Kanye Quotes</h2>
+    <button onclick="loadQuotes()">Click me to refresh!</button>
+    <blockquote id="quote">
+
+    </blockquote>
+
+    <script src="js/kanye.js"></script>
+</body>
+
+</html>
