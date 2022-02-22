@@ -1,3 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+        * {
+            font-family: 'Montserrat', sans-serif;
+            text-align: center;
+        }
+
+        button {
+            border: none;
+            background-color: aqua;
+            padding: 20px;
+            color: black;
+            border-radius: 15px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+        }
+
 @media screen and (max-width: 420px) {
     h2{
         font-size: 2rem;
