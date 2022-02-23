@@ -1,4 +1,3 @@
-document.getElementById('error-message').style.display = 'none';
 const searchFood = () => {
     const searchField = document.getElementById('search-field');
     const searchText = searchField.value;
@@ -6,10 +5,14 @@ const searchFood = () => {
 
     // clear data
     searchField.value = '';
-    document.getElementById('error-message').style.display = 'none';
     if (searchText == '') {
         // please write something to display
-        alert('hello')
+        Swal.fire({
+            // title: 'Error!',
+            text: 'Please type any food name first',
+            icon: 'warning',
+            confirmButtonText: 'Okay'
+        })
     }
     else {
         // load data
@@ -23,7 +26,12 @@ const searchFood = () => {
 }
 
 const displayError = () => {
-    document.getElementById('error-message').style.display = 'block';
+    Swal.fire({
+        // title: 'Error!',
+        text: 'Incorrect food name, check again',
+        icon: 'error',
+        confirmButtonText: 'Okay'
+    })
 }
 
 const displaySearchResult = meals => {
@@ -32,6 +40,12 @@ const displaySearchResult = meals => {
     searchResult.textContent = '';
     if (meals.length == 0) {
         // show no result found
+        Swal.fire({
+            // title: 'Error!',
+            text: 'No result found',
+            icon: 'error',
+            confirmButtonText: 'Cool'
+        })
     }
     meals.forEach(meal => {
         // console.log(meal);
@@ -67,7 +81,6 @@ const displayMealDetail = meal => {
     mealDetails.textContent = '';
     const div = document.createElement('div');
     div.classList.add('card');
-    // div.style.width = '18rem';
     div.innerHTML = `
     <img src="${meal.strMealThumb}" class="card-img-top" alt="...">
     <div class="card-body">
@@ -76,6 +89,24 @@ const displayMealDetail = meal => {
     <p class="card-text">Category: ${meal.strCategory}</p>
     <p class="card-text">${meal.strInstructions.slice(0, 150)}</p>
     <a target="_blank" href="${meal.strYoutube}">More Details</a>
+</div>
+
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">${meal.strMeal}</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">${meal.strInstructions.slice(0, 150)}</div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
 </div>
     `;
     mealDetails.appendChild(div);
