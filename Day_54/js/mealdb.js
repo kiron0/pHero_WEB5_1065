@@ -11,7 +11,7 @@ const searchFood = () => {
             // title: 'Error!',
             text: 'Please type any food name first',
             icon: 'warning',
-            confirmButtonText: 'Okay'
+            // confirmButtonText: 'Okay'
         })
     }
     else {
@@ -44,7 +44,7 @@ const displaySearchResult = meals => {
             // title: 'Error!',
             text: 'No result found',
             icon: 'error',
-            confirmButtonText: 'Cool'
+            // confirmButtonText: 'Cool'
         })
     }
     meals.forEach(meal => {
