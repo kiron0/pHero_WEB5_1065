@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+
+:root {
+    --bg-color:#e6e6e6;
+    --box-shadow:.4rem .4rem 1rem #ccc,
+                -.4rem -.4rem 1rem #fff;
+    --box-shadow-inset:.4rem .4rem 1rem #ccc inset,
+                      -.4rem -.4rem 1rem #fff inset;
+}
+
+body{
+    background-color: var(--bg-color);
+}
+
+.jumbotron,
+.well{
+    border: none;
+    outline: none;
+    background-color: var(--bg-color);
+    box-shadow: var(--box-shadow);
+}
+
+.jumbotron input{
+    outline: none !important;
+    border: none;
+    box-shadow: var(--box-shadow-inset);
+    background-color: var(--bg-color);
+    border-radius: 5px;
+}
+
+input:focus{
+    outline: none;
+}
+
+.jumbotron select{
+    outline: none;
+    border: none;
+    box-shadow: var(--box-shadow-inset);
+    background-color: var(--bg-color);
+}
+
+.button,
+.button-cls,
+.button-del{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: var(--bg-color);
+    box-shadow: var(--box-shadow);
+    margin-right: 1rem;
+}
+.button:hover{
+    box-shadow: var(--box-shadow-inset);
+    background-color: var(--bg-color);
+}
+.button-cls,
+.button-del{
+    margin-top: 2rem;
+}
+
+.button-cls:hover{
+    box-shadow: var(--box-shadow-inset);
+    background-color: var(--bg-color);
+}
+.button-del:hover{
+    box-shadow: var(--box-shadow-inset);
+    background-color: var(--bg-color);
+}
