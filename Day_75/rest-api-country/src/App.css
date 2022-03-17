@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+}
+
+.country{
+  background-color: aqua;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 20px;
+}
+
+.country img{
+  width: 200px;
+  border-radius: 15px;
+}
